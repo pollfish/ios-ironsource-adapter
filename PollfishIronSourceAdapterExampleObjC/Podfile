@@ -1,0 +1,4 @@
+target 'PollfishIronSourceAdapterExampleObjC' do
+  use_frameworks!
+  pod 'PollfishIronSourceAdapter', :path => '../'
+end

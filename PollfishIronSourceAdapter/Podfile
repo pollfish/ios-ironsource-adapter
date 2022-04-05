@@ -1,0 +1,7 @@
+target 'PollfishIronSourceAdapter' do
+  use_frameworks!
+
+  pod 'Pollfish'
+  pod 'IronSourceSDK'
+
+end

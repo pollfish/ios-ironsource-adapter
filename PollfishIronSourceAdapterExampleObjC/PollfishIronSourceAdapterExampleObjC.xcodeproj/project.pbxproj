@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80AEEB3227F5FDC6004989BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AEEB3127F5FDC6004989BF /* AppDelegate.m */; };
+		80AEEB3527F5FDC6004989BF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AEEB3427F5FDC6004989BF /* SceneDelegate.m */; };
+		80AEEB3827F5FDC6004989BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AEEB3727F5FDC6004989BF /* ViewController.m */; };
+		80AEEB3B27F5FDC6004989BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AEEB3927F5FDC6004989BF /* Main.storyboard */; };
+		80AEEB3D27F5FDC8004989BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AEEB3C27F5FDC8004989BF /* Assets.xcassets */; };
+		80AEEB4027F5FDC8004989BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AEEB3E27F5FDC8004989BF /* LaunchScreen.storyboard */; };
+		80AEEB4327F5FDC8004989BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AEEB4227F5FDC8004989BF /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80AEEB2D27F5FDC6004989BF /* PollfishIronSourceAdapterExampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PollfishIronSourceAdapterExampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AEEB3027F5FDC6004989BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80AEEB3127F5FDC6004989BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80AEEB3327F5FDC6004989BF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		80AEEB3427F5FDC6004989BF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		80AEEB3627F5FDC6004989BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80AEEB3727F5FDC6004989BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80AEEB3A27F5FDC6004989BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80AEEB3C27F5FDC8004989BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80AEEB3F27F5FDC8004989BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80AEEB4127F5FDC8004989BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AEEB4227F5FDC8004989BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AEEB2A27F5FDC6004989BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80AEEB2427F5FDC6004989BF = {
+			isa = PBXGroup;
+			children = (
+				80AEEB2F27F5FDC6004989BF /* PollfishIronSourceAdapterExampleObjC */,
+				80AEEB2E27F5FDC6004989BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80AEEB2E27F5FDC6004989BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80AEEB2D27F5FDC6004989BF /* PollfishIronSourceAdapterExampleObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AEEB2F27F5FDC6004989BF /* PollfishIronSourceAdapterExampleObjC */ = {
+			isa = PBXGroup;
+			children = (
+				80AEEB3027F5FDC6004989BF /* AppDelegate.h */,
+				80AEEB3127F5FDC6004989BF /* AppDelegate.m */,
+				80AEEB3327F5FDC6004989BF /* SceneDelegate.h */,
+				80AEEB3427F5FDC6004989BF /* SceneDelegate.m */,
+				80AEEB3627F5FDC6004989BF /* ViewController.h */,
+				80AEEB3727F5FDC6004989BF /* ViewController.m */,
+				80AEEB3927F5FDC6004989BF /* Main.storyboard */,
+				80AEEB3C27F5FDC8004989BF /* Assets.xcassets */,
+				80AEEB3E27F5FDC8004989BF /* LaunchScreen.storyboard */,
+				80AEEB4127F5FDC8004989BF /* Info.plist */,
+				80AEEB4227F5FDC8004989BF /* main.m */,
+			);
+			path = PollfishIronSourceAdapterExampleObjC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80AEEB2C27F5FDC6004989BF /* PollfishIronSourceAdapterExampleObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AEEB4627F5FDC8004989BF /* Build configuration list for PBXNativeTarget "PollfishIronSourceAdapterExampleObjC" */;
+			buildPhases = (
+				80AEEB2927F5FDC6004989BF /* Sources */,
+				80AEEB2A27F5FDC6004989BF /* Frameworks */,
+				80AEEB2B27F5FDC6004989BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PollfishIronSourceAdapterExampleObjC;
+			productName = PollfishIronSourceAdapterExampleObjC;
+			productReference = 80AEEB2D27F5FDC6004989BF /* PollfishIronSourceAdapterExampleObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80AEEB2527F5FDC6004989BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					80AEEB2C27F5FDC6004989BF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 80AEEB2827F5FDC6004989BF /* Build configuration list for PBXProject "PollfishIronSourceAdapterExampleObjC" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80AEEB2427F5FDC6004989BF;
+			productRefGroup = 80AEEB2E27F5FDC6004989BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80AEEB2C27F5FDC6004989BF /* PollfishIronSourceAdapterExampleObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80AEEB2B27F5FDC6004989BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AEEB4027F5FDC8004989BF /* LaunchScreen.storyboard in Resources */,
+				80AEEB3D27F5FDC8004989BF /* Assets.xcassets in Resources */,
+				80AEEB3B27F5FDC6004989BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80AEEB2927F5FDC6004989BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AEEB3827F5FDC6004989BF /* ViewController.m in Sources */,
+				80AEEB3227F5FDC6004989BF /* AppDelegate.m in Sources */,
+				80AEEB4327F5FDC8004989BF /* main.m in Sources */,
+				80AEEB3527F5FDC6004989BF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80AEEB3927F5FDC6004989BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AEEB3A27F5FDC6004989BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80AEEB3E27F5FDC8004989BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AEEB3F27F5FDC8004989BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80AEEB4427F5FDC8004989BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80AEEB4527F5FDC8004989BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80AEEB4727F5FDC8004989BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 984ZRM32BG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PollfishIronSourceAdapterExampleObjC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishIronSourceAdapterExampleObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80AEEB4827F5FDC8004989BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 984ZRM32BG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PollfishIronSourceAdapterExampleObjC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishIronSourceAdapterExampleObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80AEEB2827F5FDC6004989BF /* Build configuration list for PBXProject "PollfishIronSourceAdapterExampleObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AEEB4427F5FDC8004989BF /* Debug */,
+				80AEEB4527F5FDC8004989BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AEEB4627F5FDC8004989BF /* Build configuration list for PBXNativeTarget "PollfishIronSourceAdapterExampleObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AEEB4727F5FDC8004989BF /* Debug */,
+				80AEEB4827F5FDC8004989BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80AEEB2527F5FDC6004989BF /* Project object */;
+}

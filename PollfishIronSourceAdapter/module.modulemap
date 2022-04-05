@@ -1,0 +1,11 @@
+//
+//  module.h
+//  PollfishIronSourceAdapter
+//
+//  Created by Fotis Mitropoulos on 23/3/22.
+//
+
+module IronSource {
+    header "Pods/IronSourceSDK/IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/IronSource.h"
+    export *
+}
