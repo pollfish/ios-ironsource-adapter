@@ -16,12 +16,29 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
     
-    [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+    if (@available(iOS 14, *)) {
+        [self requestIDFAPermission];
+    } else {
         [self setupIronSource];
-    }];
+    }
+}
+
+- (void)requestIDFAPermission {
+#if __has_include(<AppTrackingTransparency/AppTrackingTransparency.h>)
+    if (@available(iOS 14, *)) {
+        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self setupIronSource];
+            });
+        }];
+    } else {
+        // Fallback on earlier versions
+    }
+#endif
 }
 
 - (void)setupIronSource {

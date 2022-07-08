@@ -7,7 +7,9 @@
 
 #import <UIKit/UIKit.h>
 #import <IronSource/IronSource.h>
+#if __has_include(<AppTrackingTransparency/AppTrackingTransparency.h>)
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
+#endif
 
 @interface ViewController : UIViewController <ISRewardedVideoDelegate>
 

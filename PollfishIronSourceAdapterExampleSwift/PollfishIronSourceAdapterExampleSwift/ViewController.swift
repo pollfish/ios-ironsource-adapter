@@ -8,18 +8,32 @@
 import UIKit
 import ObjectiveC.runtime
 import AppTrackingTransparency
+#if canImport(AppTrackingTransparency)
+import AppTrackingTransparency
+#endif
 
 class ViewController: UIViewController, ISRewardedVideoDelegate {
     
     private let appKey = "APP_KEY"
     @IBOutlet weak var showRewardedAdButton: UIButton!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        ATTrackingManager.requestTrackingAuthorization { status in
+
+    override func viewDidAppear(_ animated: Bool) {
+        if #available(iOS 14, *) {
+            requestIDFAPermission()
+        } else {
             self.setupIronSource()
         }
+    }
+    
+    @available(iOS 14, *)
+    func requestIDFAPermission() {
+        #if canImport(AppTrackingTransparency)
+        ATTrackingManager.requestTrackingAuthorization { status in
+            DispatchQueue.main.async {
+                self.setupIronSource()
+            }
+        }
+        #endif
     }
 
     private func setupIronSource() {
