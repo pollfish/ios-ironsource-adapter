@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PollfishIronSourceAdapter-Swift.h</key>
 		<data>
-		Bz4Vh6Q+deWAcq09VukZkN8S9WA=
+		SRxfYLeeUDp0u1bboGewoMk1jyw=
 		</data>
 		<key>Headers/PollfishIronSourceAdapter.h</key>
 		<data>
@@ -14,19 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/+ImX8JdfwrLAAHS9W7Yf3ZKjvE=
+		7V7nA4MIvPwFzcNNGs16rnlVzkQ=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		9HzZbITvFual5gGXic8oBjmQ1SQ=
+		HbGx6zP4ZvM5yLgDrO6AL81yfkU=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		AZV2nC00+eJ2pfSrm5K47ODmAjo=
+		4mIRF40uFO9wVEGI7GKp8S7xHC4=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0WEXrx2CXI97ueDpvgiQ0/eel/g=
+		pVTYOoie3vVbA12+ov00/lqcjjA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,11 +39,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Bz4Vh6Q+deWAcq09VukZkN8S9WA=
+			SRxfYLeeUDp0u1bboGewoMk1jyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			26bRLVVb9vDvNh123jZTW6lYpoz2wdSb6JyRUZ/pXvA=
+			P6cBpmcFWaXLbdQnJJ59Ib0VkpprXpVhOWRbDzPJ0Rk=
 			</data>
 		</dict>
 		<key>Headers/PollfishIronSourceAdapter.h</key>
@@ -61,33 +61,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9HzZbITvFual5gGXic8oBjmQ1SQ=
+			HbGx6zP4ZvM5yLgDrO6AL81yfkU=
 			</data>
 			<key>hash2</key>
 			<data>
-			4SkBN52VyN4lfz1/EIpJY0Tazrj/6P0Yp5yTlyhcE+0=
+			uBKFDR5oOJg/IQh1BxvA5T2FVEjWduiFY13uY1LzzVE=
 			</data>
 		</dict>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AZV2nC00+eJ2pfSrm5K47ODmAjo=
+			4mIRF40uFO9wVEGI7GKp8S7xHC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ilaQBpMmtf8sqO2jjW4ch/ugtNVKaglFIEmOYziZYhE=
+			udWpKeLVvL3iDHY4IX3JyuNKnF7KDgRhXyPXy4VwUVc=
 			</data>
 		</dict>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0WEXrx2CXI97ueDpvgiQ0/eel/g=
+			pVTYOoie3vVbA12+ov00/lqcjjA=
 			</data>
 			<key>hash2</key>
 			<data>
-			zsR1pp3Vqx2yl9oUOcpVeWt/pj1vp4zeZ9HdeA2S/p4=
+			NTI5ICS9GZaIYdaTVg6bmHCXT0ruuOgsz/JJ6nVm/Fs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

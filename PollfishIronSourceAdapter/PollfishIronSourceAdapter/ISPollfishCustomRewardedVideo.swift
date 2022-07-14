@@ -42,8 +42,7 @@ public class ISPollfishCustomRewardedVideo : ISBaseRewardedVideo, PollfishDelega
             params.requestUUID(requestUUID)
         }
         
-        // params.platform(Platform.ironSource)
-        params.platform(Platform.max)
+        params.platform(Platform.ironSource)
         
         Pollfish.initWith(params, delegate: self)
         

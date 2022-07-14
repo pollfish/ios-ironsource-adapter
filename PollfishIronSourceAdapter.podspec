@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name                  = 'PollfishIronSourceAdapter'
-    s.version               = '6.2.5.0'
+    s.version               = '6.2.6.0'
     s.summary               = 'Pollfish iOS Adapter for IronSource Mediation'
     s.module_name           = 'PollfishIronSourceAdapter'
     s.description           = 'Adapter for publishers looking to use IronSource mediation to load and show Rewarded Surveys from Pollfish in the same waterfall with other Rewarded Ads.'
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.swift_versions        = ['5.3']
 
     s.vendored_frameworks   = 'PollfishIronSourceAdapter.xcframework'
-    s.dependencies          = { 'Pollfish'=> "~> 6.2.5", 'IronSourceSDK'=> '>= 7.2.1.1'}
+    s.dependencies          = { 'Pollfish'=> "~> 6.2.6", 'IronSourceSDK'=> '>= 7.2.3.1'}
 
     s.pod_target_xcconfig   = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
     
