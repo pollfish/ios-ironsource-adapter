@@ -1,0 +1,34 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PollfishIronSourceAdapter
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import IronSource
+import Pollfish
+@_exported import PollfishIronSourceAdapter
+import Swift
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objc(ISPollfishCustomAdapter) public class ISPollfishCustomAdapter : IronSource.ISBaseNetworkAdapter {
+  @objc override dynamic public func `init`(_ adData: IronSource.ISAdData, delegate: IronSource.ISNetworkInitializationDelegate)
+  @objc override dynamic public func networkSDKVersion() -> Swift.String
+  @objc override dynamic public func adapterVersion() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(ISPollfishCustomRewardedVideo) public class ISPollfishCustomRewardedVideo : IronSource.ISBaseRewardedVideo, Pollfish.PollfishDelegate {
+  @objc override dynamic public func loadAd(with adData: IronSource.ISAdData, delegate: IronSource.ISRewardedVideoAdDelegate)
+  @objc override dynamic public func showAd(with viewController: UIKit.UIViewController, adData: IronSource.ISAdData, delegate: IronSource.ISRewardedVideoAdDelegate)
+  @objc override dynamic public func isAdAvailable(with adData: IronSource.ISAdData) -> Swift.Bool
+  @objc public func pollfishOpened()
+  @objc public func pollfishClosed()
+  @objc public func pollfishSurveyReceived(surveyInfo: Pollfish.SurveyInfo?)
+  @objc public func pollfishSurveyCompleted(surveyInfo: Pollfish.SurveyInfo)
+  @objc public func pollfishSurveyNotAvailable()
+  @objc public func pollfishUserNotEligible()
+  @objc public func pollfishUserRejectedSurvey()
+  @objc override dynamic public init(_ providerConfig: IronSource.ISAdapterConfig)
+  @objc override dynamic public init(adUnit: IronSource.ISAdUnit, adapterConfig: IronSource.ISAdapterConfig)
+  @objc override dynamic public init()
+  @objc deinit
+}

@@ -1,0 +1,868 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PollfishIronSourceAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PollfishIronSourceAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PollfishIronSourceAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "PollfishIronSourceAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PollfishIronSourceAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Pollfish",
+        "printedName": "Pollfish",
+        "declKind": "Import",
+        "moduleName": "PollfishIronSourceAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "PollfishIronSourceAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISPollfishCustomAdapter",
+        "printedName": "ISPollfishCustomAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "`init`",
+            "printedName": "`init`(_:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISNetworkInitializationDelegate",
+                "printedName": "IronSource.ISNetworkInitializationDelegate",
+                "usr": "c:objc(pl)ISNetworkInitializationDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomAdapter(im)init:delegate:",
+            "mangledName": "$s25PollfishIronSourceAdapter016ISPollfishCustomD0C4init_8delegateySo8ISAdDataC_So31ISNetworkInitializationDelegate_ptF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "overriding": true,
+            "objc_name": "init:delegate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkSDKVersion",
+            "printedName": "networkSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomAdapter(im)networkSDKVersion",
+            "mangledName": "$s25PollfishIronSourceAdapter016ISPollfishCustomD0C17networkSDKVersionSSyF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "overriding": true,
+            "objc_name": "networkSDKVersion",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomAdapter(im)adapterVersion",
+            "mangledName": "$s25PollfishIronSourceAdapter016ISPollfishCustomD0C14adapterVersionSSyF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "overriding": true,
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISPollfishCustomAdapter",
+                "printedName": "PollfishIronSourceAdapter.ISPollfishCustomAdapter",
+                "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomAdapter(im)init",
+            "mangledName": "$s25PollfishIronSourceAdapter016ISPollfishCustomD0CACycfc",
+            "moduleName": "PollfishIronSourceAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomAdapter",
+        "mangledName": "$s25PollfishIronSourceAdapter016ISPollfishCustomD0C",
+        "moduleName": "PollfishIronSourceAdapter",
+        "objc_name": "ISPollfishCustomAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ISBaseNetworkAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "IronSource.ISBaseNetworkAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PollfishIronSourceAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Pollfish",
+        "printedName": "Pollfish",
+        "declKind": "Import",
+        "moduleName": "PollfishIronSourceAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "PollfishIronSourceAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISPollfishCustomRewardedVideo",
+        "printedName": "ISPollfishCustomRewardedVideo",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd(with:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISRewardedVideoAdDelegate",
+                "printedName": "IronSource.ISRewardedVideoAdDelegate",
+                "usr": "c:objc(pl)ISRewardedVideoAdDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)loadAdWithAdData:delegate:",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC6loadAd4with8delegateySo8ISAdDataC_So010ISRewardedhJ8Delegate_ptF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "overriding": true,
+            "objc_name": "loadAdWithAdData:delegate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(with:adData:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISRewardedVideoAdDelegate",
+                "printedName": "IronSource.ISRewardedVideoAdDelegate",
+                "usr": "c:objc(pl)ISRewardedVideoAdDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)showAdWithViewController:adData:delegate:",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC6showAd4with6adData8delegateySo16UIViewControllerC_So04ISAdM0CSo010ISRewardedhJ8Delegate_ptF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "overriding": true,
+            "objc_name": "showAdWithViewController:adData:delegate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isAdAvailable",
+            "printedName": "isAdAvailable(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)isAdAvailableWithAdData:",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC13isAdAvailable4withSbSo8ISAdDataC_tF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "overriding": true,
+            "objc_name": "isAdAvailableWithAdData:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishOpened",
+            "printedName": "pollfishOpened()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)pollfishOpened",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC14pollfishOpenedyyF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "objc_name": "pollfishOpened",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishClosed",
+            "printedName": "pollfishClosed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)pollfishClosed",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC14pollfishClosedyyF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "objc_name": "pollfishClosed",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishSurveyReceived",
+            "printedName": "pollfishSurveyReceived(surveyInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Pollfish.SurveyInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SurveyInfo",
+                    "printedName": "Pollfish.SurveyInfo",
+                    "usr": "c:@M@Pollfish@objc(cs)SurveyInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)pollfishSurveyReceivedWithSurveyInfo:",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC22pollfishSurveyReceived10surveyInfoy0A00jM0CSg_tF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "objc_name": "pollfishSurveyReceivedWithSurveyInfo:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishSurveyCompleted",
+            "printedName": "pollfishSurveyCompleted(surveyInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyInfo",
+                "printedName": "Pollfish.SurveyInfo",
+                "usr": "c:@M@Pollfish@objc(cs)SurveyInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)pollfishSurveyCompletedWithSurveyInfo:",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC23pollfishSurveyCompleted10surveyInfoy0A00jM0C_tF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "objc_name": "pollfishSurveyCompletedWithSurveyInfo:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishSurveyNotAvailable",
+            "printedName": "pollfishSurveyNotAvailable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)pollfishSurveyNotAvailable",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC26pollfishSurveyNotAvailableyyF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "objc_name": "pollfishSurveyNotAvailable",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishUserNotEligible",
+            "printedName": "pollfishUserNotEligible()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)pollfishUserNotEligible",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC23pollfishUserNotEligibleyyF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "objc_name": "pollfishUserNotEligible",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishUserRejectedSurvey",
+            "printedName": "pollfishUserRejectedSurvey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)pollfishUserRejectedSurvey",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC26pollfishUserRejectedSurveyyyF",
+            "moduleName": "PollfishIronSourceAdapter",
+            "objc_name": "pollfishUserRejectedSurvey",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISPollfishCustomRewardedVideo",
+                "printedName": "PollfishIronSourceAdapter.ISPollfishCustomRewardedVideo",
+                "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdapterConfig",
+                "printedName": "IronSource.ISAdapterConfig",
+                "usr": "c:objc(cs)ISAdapterConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)init:",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoCyACSo15ISAdapterConfigCcfc",
+            "moduleName": "PollfishIronSourceAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnit:adapterConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISPollfishCustomRewardedVideo",
+                "printedName": "PollfishIronSourceAdapter.ISPollfishCustomRewardedVideo",
+                "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdUnit",
+                "printedName": "IronSource.ISAdUnit",
+                "usr": "c:objc(cs)ISAdUnit"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdapterConfig",
+                "printedName": "IronSource.ISAdapterConfig",
+                "usr": "c:objc(cs)ISAdapterConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)initWithAdUnit:adapterConfig:",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC6adUnit13adapterConfigACSo04ISAdJ0C_So09ISAdapterL0Ctcfc",
+            "moduleName": "PollfishIronSourceAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdUnit:adapterConfig:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISPollfishCustomRewardedVideo",
+                "printedName": "PollfishIronSourceAdapter.ISPollfishCustomRewardedVideo",
+                "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo(im)init",
+            "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoCACycfc",
+            "moduleName": "PollfishIronSourceAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PollfishIronSourceAdapter@objc(cs)ISPollfishCustomRewardedVideo",
+        "mangledName": "$s25PollfishIronSourceAdapter29ISPollfishCustomRewardedVideoC",
+        "moduleName": "PollfishIronSourceAdapter",
+        "objc_name": "ISPollfishCustomRewardedVideo",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ISBaseRewardedVideo",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "IronSource.ISBaseRewardedVideo",
+          "IronSource.ISBaseAdInteractionAdapter",
+          "IronSource.ISBaseAdAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PollfishDelegate",
+            "printedName": "PollfishDelegate",
+            "usr": "c:@M@Pollfish@objc(pl)PollfishDelegate",
+            "mangledName": "$s8Pollfish0A8DelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 9,
+      "value": "\"6.3.0.0\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 7,
+      "value": "\"6.3.0\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 10,
+      "value": "\"pollfish\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 9,
+      "value": "\"api_key\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 14,
+      "value": "\"request_uuid\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 14,
+      "value": "\"release_mode\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 16,
+      "value": "\"offerwall_mode\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 587,
+      "length": 42,
+      "value": "\"Pollfish survey panel is already visible\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 704,
+      "length": 71,
+      "value": "\"api_key parameter is missing from your Pollfish Network configuration\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 777,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 25,
+      "value": "\"Pollfish has not loaded\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 869,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
+      "length": 27,
+      "value": "\"Pollfish is not available\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 969,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1038,
+      "length": 43,
+      "value": "\"User is not eligible for Pollfish surveys\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1083,
+      "length": 1,
+      "value": "6"
+    }
+  ]
+}
