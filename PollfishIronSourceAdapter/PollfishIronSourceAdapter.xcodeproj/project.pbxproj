@@ -33,7 +33,6 @@
 		80AEEAB327EB34D0004989BF /* PollfishIronSourceAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PollfishIronSourceAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AEEAB627EB34D0004989BF /* PollfishIronSourceAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PollfishIronSourceAdapter.h; sourceTree = "<group>"; };
 		80AEEAC227EB3CDA004989BF /* ISPollfishCustomAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISPollfishCustomAdapter.swift; sourceTree = "<group>"; };
-		80AEEAD827EB766C004989BF /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		80AEEAD927F4AC7F004989BF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		80AEEADB27F4AD41004989BF /* ISPollfishCustomRewardedVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISPollfishCustomRewardedVideo.swift; sourceTree = "<group>"; };
 		80AEEADD27F5A590004989BF /* AdapterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterInfo.swift; sourceTree = "<group>"; };
@@ -54,7 +53,6 @@
 		80AEEAA927EB34D0004989BF = {
 			isa = PBXGroup;
 			children = (
-				80AEEAD827EB766C004989BF /* module.modulemap */,
 				80AEEAB527EB34D0004989BF /* PollfishIronSourceAdapter */,
 				80AEEAB427EB34D0004989BF /* Products */,
 				DF33B444FA71BE9EDA3D71C8 /* Pods */,
@@ -330,7 +328,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 984ZRM32BG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -346,7 +344,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 6.2.7.0;
+				MARKETING_VERSION = 6.3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishIronSourceAdapter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
@@ -365,7 +363,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 984ZRM32BG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -381,7 +379,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 6.2.7.0;
+				MARKETING_VERSION = 6.3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishIronSourceAdapter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;

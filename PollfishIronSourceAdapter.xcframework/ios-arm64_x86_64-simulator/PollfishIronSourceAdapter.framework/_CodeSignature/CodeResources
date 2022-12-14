@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PollfishIronSourceAdapter-Swift.h</key>
 		<data>
-		Q5ELj1zFI6DhBArx1AomDudGoJU=
+		/TOMg1L1/zdc4Ygm7SsOXfbZOhU=
 		</data>
 		<key>Headers/PollfishIronSourceAdapter.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vZIxrPsdkjVmFOccUhbKlg1pfvc=
+		3TIo1VOQKhkYNpQRwzbyhgRu1UA=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		jyMFzrpWDZJD7paO0gy/lAqWdNg=
+		Zxdb7/AacRKvNao0rjjYHrcCmy0=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		cSUez6fGJTUtAam5DVi5k3+adhY=
+		JRNEp3Uc1dKbbJq9CfIW3hdKa1c=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EgP/qswS5KhbjL5ZEGxERfLgoB4=
+		QzumhVmH7VzQVjj/lcSMeD0cdNQ=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cSUez6fGJTUtAam5DVi5k3+adhY=
+		JRNEp3Uc1dKbbJq9CfIW3hdKa1c=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JVPEBp6F+BdFlWpwavwEUvy8Gac=
+		KEf27RaMSMScUpCfEw/QDGPzuj8=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		jyMFzrpWDZJD7paO0gy/lAqWdNg=
+		Zxdb7/AacRKvNao0rjjYHrcCmy0=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LCeXv0hqZalZxe5fgp5v7kUSCDk=
+		4nbya8DtK8yPWHxAivs7Oaj1Bcc=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		LhBdHDR4/kumw6kSUjNHjgHzWsc=
+		Rt+RvXm8sXWXH4BpFbGzAs255Zw=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LCeXv0hqZalZxe5fgp5v7kUSCDk=
+		4nbya8DtK8yPWHxAivs7Oaj1Bcc=
 		</data>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rxFXhux2NUQAnDxSK4DigRW09Es=
+		JDaMkPQcxkYTWjCAfgQdQggc1yw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q5ELj1zFI6DhBArx1AomDudGoJU=
+			/TOMg1L1/zdc4Ygm7SsOXfbZOhU=
 			</data>
 			<key>hash2</key>
 			<data>
-			pQTQ89nJDxfyCQr50q1lpoUt9jM/Bt9rUNW+S3gw1L8=
+			duW3lzK9J2igpfbILRsdnmf0yo7KENmUIM6g/LxKreU=
 			</data>
 		</dict>
 		<key>Headers/PollfishIronSourceAdapter.h</key>
@@ -89,110 +89,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jyMFzrpWDZJD7paO0gy/lAqWdNg=
+			Zxdb7/AacRKvNao0rjjYHrcCmy0=
 			</data>
 			<key>hash2</key>
 			<data>
-			JYP2KYTLNJeCbJ+5dn6BWqdoth6rJ2DM6quKsL1O9ac=
+			nvblLQZn2W0eD3T3JI6gyZCotB3AOEICaQF0o1IW0Js=
 			</data>
 		</dict>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cSUez6fGJTUtAam5DVi5k3+adhY=
+			JRNEp3Uc1dKbbJq9CfIW3hdKa1c=
 			</data>
 			<key>hash2</key>
 			<data>
-			8+vJwim1AC112oCwayqpRgcpLVXLLWihM35XoJq6CMQ=
+			1J9GdzbCD4j4Ryu7wbBcuraBnDVrLNen5nVAwQskt3M=
 			</data>
 		</dict>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EgP/qswS5KhbjL5ZEGxERfLgoB4=
+			QzumhVmH7VzQVjj/lcSMeD0cdNQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			rvt4EJKnJh4adBOjiwXEsZHI/Ic/345rCBqy3DmV03Y=
+			gPY1fCpSa2QrSOH9BByzmCiphXF6l0sLbk74nvFpZco=
 			</data>
 		</dict>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cSUez6fGJTUtAam5DVi5k3+adhY=
+			JRNEp3Uc1dKbbJq9CfIW3hdKa1c=
 			</data>
 			<key>hash2</key>
 			<data>
-			8+vJwim1AC112oCwayqpRgcpLVXLLWihM35XoJq6CMQ=
+			1J9GdzbCD4j4Ryu7wbBcuraBnDVrLNen5nVAwQskt3M=
 			</data>
 		</dict>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JVPEBp6F+BdFlWpwavwEUvy8Gac=
+			KEf27RaMSMScUpCfEw/QDGPzuj8=
 			</data>
 			<key>hash2</key>
 			<data>
-			dPhI6JiXAy/BB0w1ggblOljskFnKanGz2b+8jxHa/7A=
+			PirOLUDi9jx7c+/TwDKaiPP0ldBCtG1W2R8SLh54sSw=
 			</data>
 		</dict>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jyMFzrpWDZJD7paO0gy/lAqWdNg=
+			Zxdb7/AacRKvNao0rjjYHrcCmy0=
 			</data>
 			<key>hash2</key>
 			<data>
-			JYP2KYTLNJeCbJ+5dn6BWqdoth6rJ2DM6quKsL1O9ac=
+			nvblLQZn2W0eD3T3JI6gyZCotB3AOEICaQF0o1IW0Js=
 			</data>
 		</dict>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LCeXv0hqZalZxe5fgp5v7kUSCDk=
+			4nbya8DtK8yPWHxAivs7Oaj1Bcc=
 			</data>
 			<key>hash2</key>
 			<data>
-			OzsK/V1MCeEGLlSKlFXr6OBetmLvB3iQNXj76wVpUZc=
+			s1WtQuJtNOM8C/x9yEDXXY0Swxaj6SwwotG3uB1FsMw=
 			</data>
 		</dict>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LhBdHDR4/kumw6kSUjNHjgHzWsc=
+			Rt+RvXm8sXWXH4BpFbGzAs255Zw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+jW395Dw/oxkbKt6KKTkGl1gA8nlZv6mkBTI+Bj/YEI=
+			p5TrRVYhhIIw4S9FUf3yCpQ5pnfWHwuad6EjXG++aFM=
 			</data>
 		</dict>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LCeXv0hqZalZxe5fgp5v7kUSCDk=
+			4nbya8DtK8yPWHxAivs7Oaj1Bcc=
 			</data>
 			<key>hash2</key>
 			<data>
-			OzsK/V1MCeEGLlSKlFXr6OBetmLvB3iQNXj76wVpUZc=
+			s1WtQuJtNOM8C/x9yEDXXY0Swxaj6SwwotG3uB1FsMw=
 			</data>
 		</dict>
 		<key>Modules/PollfishIronSourceAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rxFXhux2NUQAnDxSK4DigRW09Es=
+			JDaMkPQcxkYTWjCAfgQdQggc1yw=
 			</data>
 			<key>hash2</key>
 			<data>
-			qI0B4Et8Bi7D44tAvZHJyQTQIUiTnOom88bnR3OSxVI=
+			kQrS+NsCLatGdjU9jyyPFpafOlY4fUF5jlfS7ROQDFI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
