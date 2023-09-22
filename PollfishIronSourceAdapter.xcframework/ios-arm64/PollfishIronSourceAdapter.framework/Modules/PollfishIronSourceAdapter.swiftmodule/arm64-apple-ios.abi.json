@@ -750,14 +750,14 @@
       "kind": "StringLiteral",
       "offset": 176,
       "length": 9,
-      "value": "\"6.4.1.0\""
+      "value": "\"6.4.2.0\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 7,
-      "value": "\"6.4.1\""
+      "value": "\"6.4.2\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/Constants.swift",
@@ -863,6 +863,97 @@
       "offset": 1083,
       "length": 1,
       "value": "6"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 144,
+      "value": "\"{api_key: \""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "\", release_mode: \""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 412,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 1,
+      "value": "\", offerwall_mode: \""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 455,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 1,
+      "value": "\", request_uuid: \""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 1,
+      "value": "\"}\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1034,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1417,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1443,
+      "length": 65,
+      "value": "\"Initializing Pollfish with the following params: \""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/AdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1507,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-ironsource-adapter\/PollfishIronSourceAdapter\/PollfishIronSourceAdapter\/ISPollfishCustomRewardedVideo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1437,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

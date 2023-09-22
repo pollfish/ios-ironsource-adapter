@@ -3,7 +3,7 @@ platform :ios, '11.0'
 target 'PollfishIronSourceAdapter' do
   use_frameworks!
 
-  pod 'Pollfish', '~> 6.4.1'
+  pod 'Pollfish', '~> 6.4.2'
   pod 'IronSourceSDK'
 
 end

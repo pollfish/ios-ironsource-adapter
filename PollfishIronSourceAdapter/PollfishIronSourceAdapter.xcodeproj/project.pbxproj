@@ -328,7 +328,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 984ZRM32BG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -344,7 +344,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 6.4.1.0;
+				MARKETING_VERSION = 6.4.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishIronSourceAdapter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
@@ -363,7 +363,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 984ZRM32BG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -379,7 +379,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 6.4.1.0;
+				MARKETING_VERSION = 6.4.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishIronSourceAdapter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
